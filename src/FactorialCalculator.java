@@ -13,10 +13,8 @@ public class FactorialCalculator {
             FindFactorialInitialNumber();
         } else {
             JOptionPane.showMessageDialog(null, "The iserted N! value has not satisfy following criteria \n 1<=N<=2000 && Numeric");
-
         }
     }
-
 
     public boolean CheckInput() {
        //MUST BE: NUMERIC // LESS DIGITS THAN 2000! // GREATER THAN 0
